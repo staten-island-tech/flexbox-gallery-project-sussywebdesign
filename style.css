@@ -1,6 +1,13 @@
 html,body,*{
-    font-size: 62.5%;
+    font-size: 100%;
     color: burlywood;
-    background-color: rgb(51, 27, 4);
-    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(65, 23, 7);
+    font-family: 'Staatliches', cursive;
+}
+.hb{
+    font-size: 3rem;
+    background-color: rgb(168, 75, 32);
+    border: solid rgb(168, 75, 32);
+    border-radius: 4px;
+    
 }
