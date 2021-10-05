@@ -1,13 +1,28 @@
-html,body,*{
+html,body,*
+*{ 
     font-size: 100%;
-    color: burlywood;
-    background-color: rgb(65, 23, 7);
     font-family: 'Staatliches', cursive;
 }
-.hb{
+body{
+    color: burlywood;
+    background-color: rgb(41, 14, 3);
+}
+
+h1{
     font-size: 3rem;
-    background-color: rgb(168, 75, 32);
-    border: solid rgb(168, 75, 32);
-    border-radius: 4px;
-    
+    align-items: center;
+    border: rgb(128, 69, 14) solid .25rem;
+    width: 10rem;
+    border-radius: 1rem;
+    background-color: rgb(128, 69, 14);
+}
+.box{
+    box-shadow: brown;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(128, 69, 14);
+
+}
+img{
+    width: 20rem;
 }
