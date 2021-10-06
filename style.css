@@ -10,11 +10,11 @@ body{
 
 h1{
     font-size: 3rem;
-    align-items: center;
     border: rgb(128, 69, 14) solid .25rem;
     width: 10rem;
     border-radius: 1rem;
     background-color: rgb(128, 69, 14);
+    text-align: center;
 }
 .box{
     box-shadow: brown;
@@ -27,4 +27,10 @@ h1{
 }
 img{
     width: 20rem;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
 }
