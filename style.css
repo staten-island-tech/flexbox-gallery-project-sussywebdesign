@@ -21,7 +21,9 @@ h1{
     font-size: 2rem;
     text-align: center;
     background-color: rgb(128, 69, 14);
-
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 10%;
 }
 img{
     width: 20rem;
