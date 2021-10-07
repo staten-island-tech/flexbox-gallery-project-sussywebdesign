@@ -27,7 +27,6 @@ h1{
 img{
     width: 20rem;
     border-radius: 10%;
-    object-fit: cover;
 }
 .gallery{
     display: flex;
