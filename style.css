@@ -2,6 +2,7 @@ html,body,*
 *{ 
     font-size: 100%;
     font-family: 'Staatliches', cursive;
+    box-sizing: border-box;
 }
 body{
     color: burlywood;
@@ -17,11 +18,9 @@ h1{
     text-align: center;
 }
 .box{
-    box-shadow: brown;
     font-size: 2rem;
     text-align: center;
     background-color: rgb(128, 69, 14);
-    width: fit-content;
     padding: 1rem;
     border-radius: 10%;
 }
@@ -33,4 +32,7 @@ img{
 .gallery{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 2.6rem auto;
 }
