@@ -30,7 +30,7 @@ img{
 }
 .gallery{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     width: 90vw;
     margin: 2.6rem auto;
