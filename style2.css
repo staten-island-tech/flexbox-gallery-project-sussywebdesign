@@ -1,18 +1,20 @@
 html,body,*{
-    margin: auto;
     box-sizing: border-box;
     font-size: 62.5%;
 }
 body{
     background-color: brown;
     color: burlywood;
+    display: flex;
 }
 img{
     width: 20rem;
     object-fit: contain;
+    box-shadow: khaki 5px 5px ;
 }
 .card{
-    display: ;
+    display: flex;
     justify-content: space-between;
     font-size: 10rem;
+   
 }
