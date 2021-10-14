@@ -16,9 +16,16 @@ h1{
 }
 img{
     width: 45rem;
+    height: 25.313rem;
     border-radius: 10%;
     box-shadow: rgb(255, 255, 255) .5rem .5rem 1rem;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
+    object-fit: cover;
+}
+.text{
+    font-size: 2rem;
+    text-align: center;
+    position: relative 1rem;
 }
 .gallery{
     display: flex;
