@@ -25,7 +25,6 @@ img{
 .text{
     font-size: 2rem;
     text-align: center;
-    position: relative 1rem;
 }
 .gallery{
     display: flex;
@@ -34,4 +33,7 @@ img{
     width: 90vw;
     margin: auto;
     align-items: flex-start;
+}
+.card{
+    
 }
