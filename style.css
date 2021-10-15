@@ -19,7 +19,7 @@ img{
     height: 25.313rem;
     border-radius: 10%;
     box-shadow: rgb(255, 255, 255) .5rem .5rem 1rem;
-    margin-bottom: 10%;
+    margin-top: 3rem;
     object-fit: cover;
 }
 .text{
