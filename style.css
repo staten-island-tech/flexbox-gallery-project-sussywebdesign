@@ -19,13 +19,12 @@ img{
     height: 25.313rem;
     border-radius: 10%;
     box-shadow: rgb(255, 255, 255) .5rem .5rem 1rem;
-    margin-bottom: 10%;
+    margin-top: 3rem;
     object-fit: cover;
 }
 .text{
     font-size: 2rem;
     text-align: center;
-    position: relative 1rem;
 }
 .gallery{
     display: flex;
@@ -34,4 +33,7 @@ img{
     width: 90vw;
     margin: auto;
     align-items: flex-start;
+}
+.card{
+    
 }
