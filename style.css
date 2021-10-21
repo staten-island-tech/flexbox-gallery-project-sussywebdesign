@@ -46,14 +46,14 @@ img:hover{
 h1:hover{
     transform: rotate(-9000deg);
 }
+@media(max-width:768px){
+    body{
+        background-color: chocolate;
+    }
+}
 @media (max-width: 375px){
     Body{
         color: burlywood;
         background-color: brown ;
-    }
-}
-@media(max-width:768px){
-    body{
-        background-color: chocolate;
     }
 }
