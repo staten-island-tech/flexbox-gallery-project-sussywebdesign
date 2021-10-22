@@ -2,6 +2,9 @@ html,body,*
 *{ 
     font-size: 62.5%;
     font-family: 'Staatliches', cursive;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 body{
     color: white;
@@ -11,6 +14,7 @@ body{
 
 h1{
     font-size: 5rem;
+    margin-top: 3rem;
     text-align: center;
     text-shadow: rgb(78, 78, 78) .4rem .4rem;
     transition: ease-in-out 6s;
@@ -24,8 +28,9 @@ img{
     object-fit: cover;
     transition: ease-in-out 1s;
 }
-.text{
-    font-size: 2rem;
+.card-text{
+    margin-top: 2rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 .gallery{
@@ -37,16 +42,26 @@ img{
     align-items: flex-start;
     margin-top: 3rem;
 }
+@keyframes card animation{
+    0%{left: 65%;   bottom: 111%;}
+    25%{left: 34%;  bottom: 200%;}
+    50%{left: 1%;    bottom: 25%;}
+    75%{left: 65%;  bottom: 3%;}
+    100%{left: 65%;     bottom: 111%;}
+}
+.card{
+    animation: card animation infinite 5s;
+}
 img:hover{
     transform: scale(2);
 }
-.text:hover{
+.card-text:hover{
     transform:scaleY(7);
 }
 h1:hover{
     transform: rotate(-9000deg);
 }
-@media(max-width:768px){
+@media (max-width:768px){
     body{
         background-color: chocolate;
     }
