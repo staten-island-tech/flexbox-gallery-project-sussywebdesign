@@ -28,6 +28,11 @@ img{
     object-fit: cover;
     transition: ease-in-out 1s;
 }
+.homer{
+    height: 10rem;
+    position: absolute;
+    top: 7rem;
+}
 .card-text{
     margin-top: 2rem;
     font-size: 2.5rem;
@@ -40,18 +45,9 @@ img{
     width: 90vw;
     margin: auto;
     align-items: flex-start;
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
-@keyframes card animation{
-    0%{left: 65%;   bottom: 111%;}
-    25%{left: 34%;  bottom: 200%;}
-    50%{left: 1%;    bottom: 25%;}
-    75%{left: 65%;  bottom: 3%;}
-    100%{left: 65%;     bottom: 111%;}
-}
-.card{
-    animation: card animation infinite 5s;
-}
+
 img:hover{
     transform: scale(2);
 }
@@ -59,7 +55,7 @@ img:hover{
     transform:scaleY(7);
 }
 h1:hover{
-    transform: rotate(-9000deg);
+    transform: rotate(-1000000deg);
 }
 @media (max-width:768px){
     body{
