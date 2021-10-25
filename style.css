@@ -19,7 +19,7 @@ h1{
     text-shadow: rgb(78, 78, 78) .4rem .4rem;
     transition: ease-in-out 6s;
 }
-img{
+.card-image{
     width: 45rem;
     height: 25.313rem;
     border-radius: 10%;
@@ -48,7 +48,7 @@ img{
     margin-top: 6rem;
 }
 
-img:hover{
+.card-image:hover{
     transform: scale(2);
 }
 .card-text:hover{
